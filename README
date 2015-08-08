@@ -1,0 +1,16 @@
+Nekro URL shortner
+	Makes short URL for you and keeps them forever.
+
+System requirements:
+	apache2 with mod_rewrite
+	php5.3+ 
+	MySQL
+
+Installation:
+	1. clone repo.
+	2. create database `nekro` (or other name of your choice) in mysql.
+	3. load nekro_2015_08_08.sql file to it.
+	4. fix config.php file accordinly to your environment settings.
+	5. make site visible by apache.
+	6. everything should work now.
+	
